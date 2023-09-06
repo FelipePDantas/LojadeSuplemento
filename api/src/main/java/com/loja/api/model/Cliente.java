@@ -21,7 +21,7 @@ public class Cliente {
 
     private String nome;
     private String email;
-    private int telefone;
-    private int cpf;
+    private Long telefone;
+    private Long cpf;
 
 }
