@@ -16,9 +16,9 @@ import lombok.NoArgsConstructor;
 public class Fornecedor {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private int id;
+    private long id;
 
-    private int cnpj;
+    private long cnpj;
 
     private String nome ;
 
